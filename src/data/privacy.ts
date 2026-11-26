@@ -43,7 +43,7 @@ export const privacyPolicy = {
     {
       heading: 'Data Security',
       content: [
-        'We implement reasonable administrative, technical, and physical safeguards to protect your personal information. However, no method of transmission over the internet or electronic storage is completely secure, and we cannot guarantee absolute security.',
+        'We implement reasonable administrative, physical, and technical safeguards to protect your personal information. However, no method of transmission over the internet or electronic storage is completely secure, and we cannot guarantee absolute security.',
       ],
     },
     {
