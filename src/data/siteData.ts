@@ -15,19 +15,18 @@ export const siteData = {
   // ── Business identity ────────────────────────────────────────────────────
   name: 'Civitas',
   tagline: 'Tagline/smth deep',
-  description:
-    'Yap yap yap yap',
+  description:'Yap yap yap yap',
   url: 'https://example.com',
   locale: 'en_US',
 
   /** Business / contractor license number. Displayed in the header and footer
    *  as a trust signal. Set to an empty string to hide it. */
-  license: 'Lic# 123456',
+  license: '',
 
   // ── Contact ──────────────────────────────────────────────────────────────
-  email: 'hello@example.com',
-  phoneForTel: '555-867-5309',
-  phoneFormatted: '(555) 867-5309',
+  email: 'researchcivitas@gmail.com',
+  phoneForTel: '503-449-3584',
+  phoneFormatted: '(503) 449-3584',
   address: {
     lineOne: '123 Main Street',
     lineTwo: 'Suite 100',
@@ -42,12 +41,13 @@ export const siteData = {
     { days: 'Saturday', time: '8:00 AM - 2:00 PM' },
     { days: 'Sunday', time: 'Closed' },
   ],
+
   emergencyService: '24/7 Emergency Service Available',
 
   // ── Social media (set to empty string to hide a link) ────────────────────
   socials: {
     facebook: 'https://www.facebook.com/',
-    instagram: 'https://www.instagram.com/',
+    instagram: 'https://www.instagram.com/civitas.dnhs/',
     google: 'https://www.google.com/maps',
   },
 
@@ -112,8 +112,8 @@ export const siteData = {
       'Every member of our crew is licensed, insured, and background-checked. We treat your property with the same care we\'d give our own, and we stand behind every job with a satisfaction guarantee.',
     ],
     team: [
-      { name: 'John Smith', role: 'Founder & Lead Technician', image: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&q=80' },
-      { name: 'Maria Garcia', role: 'Operations Manager', image: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=400&q=80' },
+      { name: 'Jayaj Bhatnagar', role: 'Founder & President', image: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&q=80' },
+      { name: 'Sumedh Kotturi', role: 'Co-Founder & Vice-President', image: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=400&q=80' },
       { name: 'David Chen', role: 'Senior Technician', image: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&q=80' },
     ],
   },
