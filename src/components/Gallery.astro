@@ -87,7 +87,7 @@ const {
 
             {/* Hover caption overlay */}
             <div class="absolute inset-0 flex items-end bg-linear-to-t from-dark/60 to-transparent opacity-0 transition-opacity duration-300 group-hover:opacity-100">
-              <p class="p-3 text-sm font-medium text-white sm:p-4">{alt}</p>
+              <p class="p-3 text-sm font-medium text-accent-fg sm:p-4">{alt}</p>
             </div>
           </button>
         ))
@@ -105,7 +105,7 @@ const {
         <button
           type="button"
           data-lightbox-close
-          class="absolute right-3 top-3 z-10 flex size-11 items-center justify-center rounded-full bg-white/10 text-white transition-colors hover:bg-white/20 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white sm:right-5 sm:top-5"
+          class="absolute right-3 top-3 z-10 flex size-11 items-center justify-center rounded-full bg-accent-fg/10 text-accent-fg transition-colors hover:bg-accent-fg/20 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent-fg sm:right-5 sm:top-5"
           aria-label="Close lightbox"
         >
           <svg class="size-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
@@ -117,7 +117,7 @@ const {
         <button
           type="button"
           data-lightbox-prev
-          class="absolute left-2 z-10 flex size-11 items-center justify-center rounded-full bg-white/10 text-white transition-colors hover:bg-white/20 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white sm:left-5"
+          class="absolute left-2 z-10 flex size-11 items-center justify-center rounded-full bg-accent-fg/10 text-accent-fg transition-colors hover:bg-accent-fg/20 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent-fg sm:left-5"
           aria-label="Previous image"
         >
           <svg class="size-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
@@ -133,14 +133,14 @@ const {
             class="max-h-[75dvh] max-w-full rounded-md object-contain"
             data-lightbox-img
           />
-          <figcaption class="text-center text-sm text-white/80" data-lightbox-caption></figcaption>
+          <figcaption class="text-center text-sm text-accent-fg/80" data-lightbox-caption></figcaption>
         </figure>
 
         {/* Next button */}
         <button
           type="button"
           data-lightbox-next
-          class="absolute right-2 z-10 flex size-11 items-center justify-center rounded-full bg-white/10 text-white transition-colors hover:bg-white/20 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white sm:right-5"
+          class="absolute right-2 z-10 flex size-11 items-center justify-center rounded-full bg-accent-fg/10 text-accent-fg transition-colors hover:bg-accent-fg/20 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent-fg sm:right-5"
           aria-label="Next image"
         >
           <svg class="size-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
@@ -150,7 +150,7 @@ const {
 
         {/* Counter */}
         <span
-          class="absolute bottom-4 left-1/2 -translate-x-1/2 rounded-full bg-white/10 px-3 py-1 text-xs font-medium text-white/80"
+          class="absolute bottom-4 left-1/2 -translate-x-1/2 rounded-full bg-accent-fg/10 px-3 py-1 text-xs font-medium text-accent-fg/80"
           data-lightbox-counter
           aria-live="polite"
         ></span>
