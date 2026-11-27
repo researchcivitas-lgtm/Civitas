@@ -75,9 +75,16 @@ const { footerNav } = siteData;
             </a>
           </li>
           <li>
-            <a href={siteData.socials.instagram} target="_blank" rel="noopener noreferrer" class="transition-colors hover:text-accent-fg">
-              {siteData.socials.instagram}
-            </a>
+            {siteData.socials.instagram && (
+              <a
+                href={siteData.socials.instagram}
+                target="_blank"
+                rel="noopener noreferrer"
+                class="text-surface/80 transition-colors hover:text-accent-fg"
+              >
+                Instagram
+              </a>
+            )}
           </li>
         </ul>
       </div>

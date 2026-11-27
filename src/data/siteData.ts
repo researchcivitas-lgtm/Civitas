@@ -129,7 +129,7 @@ export const siteData = {
   // ── Footer nav columns ──────────────────────────────────────────────────
   footerNav: [
     {
-      title: 'Company',
+      title: 'Organization',
       links: [
         { label: 'About', href: '/about' },
         { label: 'Services', href: '/services' },

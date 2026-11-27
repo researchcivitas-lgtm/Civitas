@@ -24,7 +24,7 @@ export const privacyPolicy = {
       heading: 'How We Use Your Information',
       content: [
         'We use the information we collect to respond to your inquiries, schedule and provide our services, send appointment reminders and follow-ups, and process payments.',
-        'We may also use your information to send occasional updates about our services, promotions, or company news. You can opt out of these communications at any time by contacting us.',
+        'We may also use your information to send occasional updates about our services, promotions, or news. You can opt out of these communications at any time by contacting us.',
       ],
     },
     {
