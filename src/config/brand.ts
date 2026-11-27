@@ -14,10 +14,10 @@
 
 export const brand = {
   // ── Site Identity ──────────────────────────────────────────────────────────
-  name: 'Small Business Starter',
-  tagline: 'Professional service you can trust.',
+  name: 'Civitas',
+  tagline: 'Tagline/smth deep',
   description:
-    'A fast, mobile-first small-business website template built with Astro 7 and Tailwind v4. Fully customisable for any trade or service business.',
+    'yap yap yap yap',
   url: 'https://example.com',
   locale: 'en_US',
 
