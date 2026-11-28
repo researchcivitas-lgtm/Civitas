@@ -6,6 +6,7 @@ import robotsTxt from 'astro-robots-txt';
 
 export default defineConfig({
   site: 'https://moopav2.github.io',
+  base: 'Civitas',
 
   output: 'static',
 
