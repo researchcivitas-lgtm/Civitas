@@ -2,6 +2,7 @@
 import { Image } from 'astro:assets';
 import type { ImageMetadata } from 'astro';
 import { aboutImage as localAboutImage } from '../config/images';
+import { withBase } from '../utils/paths';
 
 const PLACEHOLDER = 'https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=900&q=80';
 
@@ -29,7 +30,7 @@ const {
     'Satisfaction guaranteed on every project',
   ],
   ctaLabel = 'More About Us',
-  ctaHref = '/about',
+  ctaHref = withBase('/about'),
   imageSrc = localAboutImage ?? PLACEHOLDER,
   imageAlt = 'Friendly professional team on a job site',
 } = Astro.props;
