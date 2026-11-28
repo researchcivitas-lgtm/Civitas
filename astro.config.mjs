@@ -5,8 +5,9 @@ import sitemap from '@astrojs/sitemap';
 import robotsTxt from 'astro-robots-txt';
 
 export default defineConfig({
-  site: 'https://moopav2.github.io',
+  site: 'https://researchcivitas-lgtm.github.io',
   base: '/Civitas/',
+  trailingSlash: 'always',
 
   output: 'static',
 
