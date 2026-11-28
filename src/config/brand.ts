@@ -15,7 +15,7 @@
 export const brand = {
   // ── Site Identity ──────────────────────────────────────────────────────────
   name: 'Civitas',
-  tagline: 'Tagline/smth deep',
+  tagline: 'A Student-Led, Civic Research Initiative',
   description:'A nonpartisan, student-led civic research project focused on homelessness. The goal is to build a mini think tank model at the high school level, where students learn how to create structured, evidence-based based on real social problems.',
   url: 'https://example.com',
   locale: 'en_US',

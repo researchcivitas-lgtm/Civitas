@@ -14,7 +14,7 @@
 export const siteData = {
   // ── Business identity ────────────────────────────────────────────────────
   name: 'Civitas',
-  tagline: 'Tagline/smth deep',
+  tagline: 'A Student-Led, Civic Research Initiative',
   description:'Yap yap yap yap',
   url: 'https://example.com',
   locale: 'en_US',
@@ -92,16 +92,6 @@ export const siteData = {
       description:
         'Regular preventive maintenance keeps your systems running efficiently and extends their lifespan. Ask about our seasonal service packages for year-round peace of mind.',
     },
-  ],
-
-  // ── Reviews ──────────────────────────────────────────────────────────────
-  reviews: [
-    { quote: "They showed up on time, explained everything clearly, and finished the job faster than expected. Best service experience we've had.", name: 'Sarah M.', location: 'Denver, CO', rating: 5 },
-    { quote: "Honest pricing and top-notch work. I've used them for three different projects now and they never disappoint.", name: 'James R.', location: 'Aurora, CO', rating: 5 },
-    { quote: 'Our emergency call was answered in minutes. They had the problem fixed before dinner. Truly dependable.', name: 'Linda K.', location: 'Lakewood, CO', rating: 5 },
-    { quote: 'The remodel turned out even better than we imagined. Professional, clean, and on budget. We couldn\'t be happier.', name: 'Tom & Beth P.', location: 'Boulder, CO', rating: 5 },
-    { quote: 'Great communication from start to finish. They sent photos of the progress and cleaned up perfectly when done.', name: 'Anita W.', location: 'Littleton, CO', rating: 5 },
-    { quote: "I appreciate the upfront pricing — no hidden fees or surprise charges. That's rare these days. Highly recommend.", name: 'Marcus D.', location: 'Arvada, CO', rating: 5 },
   ],
 
   // ── About page ───────────────────────────────────────────────────────────
