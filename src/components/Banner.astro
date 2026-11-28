@@ -1,4 +1,6 @@
 ---
+import { withBase } from '../utils/paths';
+
 interface Props {
   title: string;
 }
@@ -21,7 +23,7 @@ const segments = Astro.url.pathname
     <nav aria-label="Breadcrumb" class="mb-4">
       <ol class="flex flex-wrap items-center gap-1.5 text-sm text-primary-fg/60">
         <li>
-          <a href="/" class="transition-colors hover:text-primary-fg">Home</a>
+          <a href={withBase('/')} class="transition-colors hover:text-primary-fg">Home</a>
         </li>
         {segments.map(({ label, href, isLast }) => (
           <li class="flex items-center gap-1.5">
@@ -31,7 +33,7 @@ const segments = Astro.url.pathname
             {isLast ? (
               <span aria-current="page" class="text-primary-fg">{label}</span>
             ) : (
-              <a href={href} class="transition-colors hover:text-primary-fg">{label}</a>
+              <a href={withBase(href)} class="transition-colors hover:text-primary-fg">{label}</a>
             )}
           </li>
         ))}
