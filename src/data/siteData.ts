@@ -132,7 +132,6 @@ export const siteData = {
       links: [
         { label: 'About', href: '/about' },
         { label: 'Services', href: '/services' },
-        { label: 'Reviews', href: '/reviews' },
         { label: 'Blog', href: '/blog' },
       ],
     },
