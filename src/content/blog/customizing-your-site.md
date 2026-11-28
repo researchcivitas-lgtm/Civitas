@@ -47,3 +47,12 @@ To add a new page, create a `.astro` file in `src/pages/`. For example, `src/pag
 Add a new Markdown file to `src/content/blog/`. Each post needs frontmatter with `title`, `description`, `date`, and `tags`. The filename becomes the URL slug.
 
 Make it yours and ship it!
+
+## hi :D
+
+
+<details open>
+<summary>I automatically open</summary>
+<br>
+Waaa, you see me. I thought I would be hidden ;p .
+</details>
